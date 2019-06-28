@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+    <head>
+    <title>memory game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    
+    </head>
+          <body onload="set6()" id="fourboady">
+
+        
+        <h1 id="timer"> </h1>        
+        
+       <section class="board" id="mainstuff">
+    <div class="card6"  onclick="flip(this.id)" id="1" data-image="1">
+      <img class="front" src="img%20(1).jpeg" />
+        <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="2" data-image="1">
+      <img class="front" src="img%20(1).jpeg" />
+      <img class="back" src="bg.jpg"  />
+    </div>
+
+    <div class="card6"  onclick="flip(this.id)" id="3" data-image="2">
+      <img class="front" src="img%20(1).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="4" data-image="2">
+      <img class="front" src="img%20(1).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+
+    <div class="card6"  onclick="flip(this.id)" id="5" data-image="3">
+      <img class="front" src="img%20(2).jpg" />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="6" data-image="3">
+      <img class="front" src="img%20(2).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+
+    <div class="card6"  onclick="flip(this.id)" id="7" data-image="4">
+      <img class="front" src="img%20(3).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="8" data-image="4">
+      <img class="front" src="img%20(3).jpg" />
+      <img class="back" src="bg.jpg"  />
+    </div>
+
+    <div class="card6"  onclick="flip(this.id)" id="9"  data-image="5">
+      <img class="front" src="img%20(4).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="10"  data-image="5">
+      <img class="front" src="img%20(4).jpg"/>
+      <img class="back" src="bg.jpg"  />
+    </div>
+
+    <div class="card6"  onclick="flip(this.id)" id="11" data-image="6">
+      <img class="front" src="img%20(5).jpg"  />
+      <img class="back" src="bg.jpg" />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="12"  data-image="6">
+      <img class="front" src="img%20(5).jpg" />
+      <img class="back" src="bg.jpg"  />
+    </div>
+     <div class="card6"  onclick="flip(this.id)" id="13"  data-image="7">
+      <img class="front" src="img%20(6).jpg" />
+      <img class="back" src="bg.jpg" />
+    </div>
+     <div class="card6"  onclick="flip(this.id)" id="14"  data-image="7">
+      <img class="front" src="img%20(6).jpg"  />
+      <img class="back" src="bg.jpg" />
+    </div>
+     <div class="card6"  onclick="flip(this.id)" id="15"  data-image="8">
+      <img class="front" src="img%20(7).jpg"  />
+      <img class="back" src="bg.jpg" />
+    </div>
+     <div class="card6"  onclick="flip(this.id)" id="16"  data-image="8">
+      <img class="front" src="img%20(7).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="17"  data-image="9">
+      <img class="front" src="better-alternative.jpg"  />
+      <img class="back" src="bg.jpg"  />
+           </div>
+    <div class="card6"  onclick="flip(this.id)" id="18"  data-image="9">
+      <img class="front" src="better-alternative.jpg"  />
+      <img class="back" src="bg.jpg"  />
+           </div>
+    <div class="card6"  onclick="flip(this.id)" id="19"  data-image="10">
+      <img class="front" src="cat-217679.jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="20"  data-image="10">
+      <img class="front" src="cat-217679.jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+        <div class="card6"  onclick="flip(this.id)" id="21"  data-image="11">
+      <img class="front" src="cat-looking-up.jpg" alt="Aurelia" />
+      <img class="back" src="bg.jpg" alt="JS Badge" />
+    </div>
+            <div class="card6"  onclick="flip(this.id)" id="22"  data-image="11">
+      <img class="front" src="cat-looking-up.jpg" />
+      <img class="back" src="bg.jpg"  />
+    </div>
+            <div class="card6" onclick="flip(this.id)" id="23" data-image="12">
+      <img class="front" src="image.png"  />
+      <img class="back" src="bg.jpg"/>
+    </div>
+            <div class="card6" onclick="flip(this.id)" id="24"  data-image="12">
+      <img class="front" src="image.png"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+            <div class="card6"  onclick="flip(this.id)" id="25"  data-image="13">
+      <img class="front" src="images%20(1).jfif"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+                    <div class="card6"  onclick="flip(this.id)" id="26"  data-image="13">
+      <img class="front" src="images%20(1).jfif"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+                    <div class="card6"  onclick="flip(this.id)" id="27"  data-image="14">
+      <img class="front" src="images.jfif"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+                    <div class="card6"  onclick="flip(this.id)" id="28"  data-image="14">
+      <img class="front" src="images.jfif"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+      <div class="card6"  onclick="flip(this.id)" id="29"  data-image="15">
+      <img class="front" src="sq_md_289-Lion-2-529-170209_DSC_4177.jpg.jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+         <div class="card6"  onclick="flip(this.id)" id="30"  data-image="15">
+      <img class="front" src="sq_md_289-Lion-2-529-170209_DSC_4177.jpg.jpg" />
+      <img class="back" src="bg.jpg"  />
+    </div>
+        
+         <div class="card6" onclick="flip(this.id)" id="31"  data-image="16">
+      <img class="front" src="Tinkerbelle-2_d400.jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+          <div class="card6"  onclick="flip(this.id)" id="32"  data-image="16">
+      <img class="front" src="Tinkerbelle-2_d400.jpg"  />
+      <img class="back" src="bg.jpg" alt="JS Badge" />
+    </div>
+          <div class="card6"  onclick="flip(this.id)" id="33"  data-image="17">
+      <img class="front" src="xmascat2-400x400.jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+             <div class="card6"  onclick="flip(this.id)" id="34"  data-image="17">
+      <img class="front" src="xmascat2-400x400.jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+        
+          <div class="card6"  onclick="flip(this.id)" id="35"  data-image="18">
+      <img class="front" src="img%20(8).jpg"  />
+      <img class="back" src="bg.jpg"  />
+    </div>
+    <div class="card6"  onclick="flip(this.id)" id="36"  data-image="18">
+      <img class="front" src="img%20(8).jpg"  />
+      <img class="back" src="bg.jpg" />
+    </div>
+           
+           
+  </section>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
